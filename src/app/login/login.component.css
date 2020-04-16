@@ -1,0 +1,17 @@
+.login {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+.logo {
+  text-align: center;
+}
+input, label {
+  width: 100%;
+  border-radius: 10px;
+}
+button {
+  float: right;
+  border-radius: 10px;
+  margin-right: -16px;
+}

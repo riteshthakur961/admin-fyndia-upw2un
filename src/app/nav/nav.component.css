@@ -1,0 +1,19 @@
+.sidebar {
+  background: #f9e532;
+  color: black;
+  width: fit-content;
+  overflow-y: auto;
+  border-radius: 20px;
+}
+.sidebarItem {
+  padding: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 16px;
+  border-radius: 20px;
+}
+.sidebarItem:hover {
+  background: black;
+  color: #f9e532;
+  transition: background 0.5s, color 0.8s;
+}

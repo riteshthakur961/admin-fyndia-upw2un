@@ -1,0 +1,24 @@
+.overview {}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.infoCard {
+  margin: 16px;
+  background: #111;
+  color: #eee;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+.infoCard .infoHeader {
+  padding: 10px;
+  font-size: 24px;
+}
+.infoCard .infoNo {
+  color: #f9e532;
+  font-size:36px;
+  padding: 10px;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+  background: black;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  margin: 16px;
+  padding: 16px;
+  height: 100%;
+  letter-spacing: 1px;
+}
+label, input {
+  display: block;
+  margin: 10px;
+  display: block;
+}
+label {
+  color: #f9e532;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+input {
+  outline: none;
+  border: 0px;
+  background: transparent;
+  color: #f9e532;
+  border: 2px solid #f9e532;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  margin-left: 0px;
+}
+input[type='password'] {
+  letter-spacing: 3px;
+}
+button {
+  background: #f9e532;
+  color: black;
+  border: 0px;
+  margin: 10px;
+  padding: 16px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  width: fit-content;
+  display: block;
+  cursor: pointer;
+  outline: none;
+}
